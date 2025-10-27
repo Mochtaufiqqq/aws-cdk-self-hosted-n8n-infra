@@ -1,0 +1,90 @@
+{
+  "dev": {
+    "account": "yourAWSAccountId",
+    "region": "yourAWSRegion",
+    "appEnv": "dev",
+    "vpc": {
+      "id": "yourVPCId",
+      "cidrBl ock": "yourCIDRBlock",
+      "availabilityZones": [
+        "yourAvailabilityZone1",
+        "yourAvailabilityZone2"
+      ],
+      "publicSubnetIds": [
+        "yourPublicSubnetId1",
+        "yourPublicSubnetId2"
+      ],
+      "privateSubnetIds": [
+        "yourPrivateSubnetId1",
+        "yourPrivateSubnetId2"
+      ]
+    },
+    "acm": {
+      "imported": {
+        "platformCertificateArn": "arn:aws:acm:yourAWSRegion:yourAWSAccountId:certificate/yourCertificateARN"
+      }
+    },
+    "n8nMainServiceSpecs": {
+      "taskDefmemoryLimitMiB": 512,
+      "taskDefCpu": 256,
+      "containerCpu": 256,
+      "containerMemoryLimitMiB": 512,
+      "desiredCount": 1,
+      "minCapacity": 1,
+      "maxCapacity": 3
+    },
+    "n8nWorkerServiceSpecs": {
+      "taskDefmemoryLimitMiB": 512,
+      "taskDefCpu": 256,
+      "containerCpu": 256,
+      "containerMemoryLimitMiB": 512,
+      "desiredCount": 1,
+      "minCapacity": 1,
+      "maxCapacity": 3
+    }
+  },
+  "prod": { 
+    "account": "yourAWSAccountId",
+    "region": "yourAWSRegion",
+    "appEnv": "prod",
+    "vpc": {
+      "id": "yourVPCId",
+      "cidrBlock": "yourCIDRBlock",
+      "availabilityZones": [
+        "yourAvailabilityZone1",
+        "yourAvailabilityZone2"
+      ],
+      "publicSubnetIds": [
+        "yourPublicSubnetId1",
+        "yourPublicSubnetId2"
+      ],
+      "privateSubnetIds": [
+        "yourPrivateSubnetId1",
+        "yourPrivateSubnetId2"
+      ]
+    },
+    "acm": {
+      "imported": {
+        "platformCertificateArn": "arn:aws:acm:yourAWSRegion:yourAWSAccountId:certificate/yourCertificateARN"
+      }
+    },
+    "n8nMainServiceSpecs": {
+      "taskDefmemoryLimitMiB": 1024,
+      "taskDefCpu": 512,
+      "containerCpu": 512,
+      "containerMemoryLimitMiB": 1024,
+      "desiredCount": 2,
+      "minCapacity": 2,
+      "maxCapacity": 10
+    },
+    "n8nWorkerServiceSpecs": {
+      "taskDefmemoryLimitMiB": 2048,
+      "taskDefCpu": 1024,
+      "containerCpu": 1024,
+      "containerMemoryLimitMiB": 2048,
+      "desiredCount": 2,
+      "minCapacity": 2,
+      "maxCapacity": 10
+    }
+  }
+}

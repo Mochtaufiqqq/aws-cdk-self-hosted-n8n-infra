@@ -1,0 +1,3 @@
+FROM n8nio/n8n:1.114.4
+
+CMD ["worker", "--concurrency", "100"]
